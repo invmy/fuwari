@@ -5,13 +5,6 @@ description: "Scaleway STARDUST安装 alpine linux"
 category: '折腾'
 tags: ["Scaleway","VPS"]
 ---
-## 参考文章
-
-* https://yushum.com/archives/1118
-* https://blog.akebinukui.eu.org/2023/09/19/%e6%95%99%e7%a8%8b%e6%96%b0%e7%89%88scaleway%e6%98%9f%e5%b0%98%f0%9f%a4%a11c1g1g%e9%b8%a1alpine-linux%e7%8e%a9%e6%b3%95/
-* https://www.hupan.li/111.html
-
-
 
 ## 添加SSH-key
 
@@ -252,3 +245,10 @@ nameserver 2a00:1098:2c::1
 nameserver 2a01:4f9:c010:3f02::1
 nameserver 2a00:1098:2b::1
 ```
+
+
+## 参考文章
+
+* https://yushum.com/archives/1118
+* https://blog.akebinukui.eu.org/2023/09/19/%e6%95%99%e7%a8%8b%e6%96%b0%e7%89%88scaleway%e6%98%9f%e5%b0%98%f0%9f%a4%a11c1g1g%e9%b8%a1alpine-linux%e7%8e%a9%e6%b3%95/
+* https://www.hupan.li/111.html
