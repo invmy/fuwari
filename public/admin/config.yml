@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: invmy/fuwari
-  branch: main # Branch to update (optional; defaults to master)
+  branch: blog # Branch to update (optional; defaults to master)
   site_domain: https://754321.xyz
   base_url: https://754321.xyz
   auth_endpoint: /api/auth
@@ -36,7 +36,7 @@ collections:
     editor:
       preview: true
       frame: true
-    slug: "{{slug}}"
+    summary: "{{filename}}"
     fields:
-      - { name: "slug", label: "Slug", widget: "string",hint: "路径" }
+      - { name: "slug", label: "Slug", widget: "string",hint: "路径 , 仅创建时有效。创建完不支持修改，必须手动修改src/content/spec/下的文件名" }
       - { label: '正文', name: 'body',widget: 'markdown'}
