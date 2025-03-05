@@ -11,8 +11,8 @@ public_folder: /public/images
 
 collections:
   # Post collection
-  - name: 'post'
-    label: '文章'
+  - name: 'posts'
+    label: 'posts'
     folder: 'src/content/posts'
     slug: '{{slug}}'
     create: true
@@ -31,9 +31,9 @@ collections:
 
   # Note collection
   - name: 'spec'
-    label: '页面'
+    label: 'spec'
     folder: 'src/content/spec'
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     create: true
     editor:
       preview: true

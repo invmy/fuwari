@@ -1,5 +1,5 @@
 ---
-title: "Scaleway STARDUST安装 alpine linux"
+title: "Scaleway星辰安装 alpine linux"
 published: 2025-02-25T06:44:52.380Z
 description: "Scaleway STARDUST安装 alpine linux"
 category: '折腾'
@@ -8,7 +8,7 @@ tags: ["Scaleway","VPS"]
 ## 参考文章
 
 * https://yushum.com/archives/1118
-*https://blog.akebinukui.eu.org/2023/09/19/%e6%95%99%e7%a8%8b%e6%96%b0%e7%89%88scaleway%e6%98%9f%e5%b0%98%f0%9f%a4%a11c1g1g%e9%b8%a1alpine-linux%e7%8e%a9%e6%b3%95/
+* https://blog.akebinukui.eu.org/2023/09/19/%e6%95%99%e7%a8%8b%e6%96%b0%e7%89%88scaleway%e6%98%9f%e5%b0%98%f0%9f%a4%a11c1g1g%e9%b8%a1alpine-linux%e7%8e%a9%e6%b3%95/
 * https://www.hupan.li/111.html
 
 
