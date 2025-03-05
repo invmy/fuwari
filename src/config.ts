@@ -47,18 +47,13 @@ export const navBarConfig: NavBarConfig = {
       url: '/link',     // Internal links should not include the base path, as it is automatically added
       external: false,                               // Show an external link icon and will open in a new tab
     },
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
-      external: true,                               // Show an external link icon and will open in a new tab
-    },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/127717416.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'invmy',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  bio: 'invest My life',
   links: [
     {
       name: 'Twitter',

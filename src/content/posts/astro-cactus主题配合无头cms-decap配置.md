@@ -6,8 +6,6 @@ category: '折腾'
 tags: ["DecapCMS"]
 ---
 
-![图片测试](https://fuwari.vercel.app/_astro/cover.CgGywNHJ_1wRFtk.webp)
-
 ## 项目
 https://github.com/i40west/netlify-cms-cloudflare-pages
 
