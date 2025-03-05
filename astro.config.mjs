@@ -23,7 +23,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
   site: "https://754321.xyz/",
   base: "/",
-  trailingSlash: "always",
+  trailingSlash: "ignore",
   integrations: [
     tailwind(
         {
