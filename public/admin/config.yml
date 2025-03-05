@@ -40,7 +40,6 @@ collections:
       frame: true
     summary: "{{filename}}"
     sortable_fields: ["title"]
-    slug: '{{fields.slug}}'
     fields:
-      - { name: "路径", label: "slug", widget: "string",hint: "使用小写英文路径 , 仅创建时有效。创建完不支持修改，必须手动修改src/content/spec/下的文件名" }
+      - { label: '路径', name: "title", widget: "string",hint: "使用小写英文路径 , 仅创建时有效。创建完不支持修改，必须手动修改src/content/spec/下的文件名" }
       - { label: '正文', name: 'body',widget: 'markdown'}
