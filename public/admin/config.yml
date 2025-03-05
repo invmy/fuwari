@@ -7,7 +7,7 @@ backend:
   auth_endpoint: /api/auth
 
 media_folder: gallery/blog
-public_folder: "https://cdn.jsdelivr.net/gh/invmy/fuwari@blog/blog"
+public_folder: "https://cdn.jsdelivr.net/gh/invmy/fuwari@blog/gallery"
 
 collections:
   - name: 'posts'
