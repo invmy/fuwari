@@ -33,7 +33,7 @@
           "name": "published",
           "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "ispublished": true
         },
         {
           "title": "preview",

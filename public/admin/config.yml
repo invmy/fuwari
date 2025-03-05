@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: invmy/fuwari
+  branch: main # Branch to update (optional; defaults to master)
+  site_domain: https://754321.xyz
+  base_url: https://754321.xyz
+  auth_endpoint: /api/auth
+
+media_folder: public/images
+public_folder: /public/images
+
+collections:
+  # Post collection
+  - name: 'post'
+    label: '文章'
+    folder: 'src/content/posts'
+    create: true
+    editor:
+      preview: true
+      frame: true
+    fields:
+      - { label: "封面",name: "image",widget: "image", choose_url: true,hint: "可以上传也可以插入链接"}
+      - { label: '标题', name: 'title', widget: 'string' ,required: true}
+      - { label: '发布日期', name: 'published', widget: 'datetime', date_format: "YYYY-MM-DD",required: true}
+      - { label: '更新日期', name: 'updated', widget: 'datetime', date_format: "YYYY-MM-DD"}
+      - { label: '描述', name: 'description', widget: 'string'}
+      - { label: "分类", name: "category", widget: "string",hint: "输入一个分类名，不可多个分类名"}
+      - { label: "标签", name: "tags", widget: "list",hint: "输入标签使用英文逗号分割，无限制数量。列如：标签1,标签2,标签3" }
+      - { label: '正文', name: 'body', widget: 'markdown'}
+
+  # Note collection
+  - name: 'spec'
+    label: '页面'
+    folder: 'src/content/spec'
+    create: true
+    editor:
+      preview: true
+      frame: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "slug", label: "Slug", widget: "string",hint: "路径" }
+      - { label: '正文', name: 'body',widget: 'markdown'}
