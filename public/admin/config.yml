@@ -6,8 +6,8 @@ backend:
   base_url: https://754321.xyz
   auth_endpoint: /api/auth
 
-media_folder: gallery/blog
-public_folder: "https://cdn.jsdelivr.net/gh/invmy/fuwari@blog/gallery/blog"
+media_folder: public/images
+public_folder: /images
 
 collections:
   - name: 'posts'

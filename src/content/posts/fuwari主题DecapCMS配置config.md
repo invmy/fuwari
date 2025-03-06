@@ -38,6 +38,7 @@ functions 放到根目录 /
 编辑配置以适配你的md文档格式。具体询问chatgpt或者抄别人的。
 
 按需修改，name不要动。主要修改域名
+
 ```
 backend:
   name: github
@@ -99,3 +100,14 @@ GITHUB_CLIENT_SECRET = Client secrets
 
 ## 无法验证OA
 检测是否填错网址
+
+如果你的文件放在github想套CDN 
+
+## 给图片套CDN
+
+修改config
+
+```
+media_folder: public/images
+public_folder: "https://cdn.jsdelivr.net/gh/user/repo@main/public/images"
+```
