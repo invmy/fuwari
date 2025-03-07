@@ -1,6 +1,6 @@
 ---
 title: "快捷指令上发送GitHub issues"
-published: 2025-02-25T06:44:52.380Z
+published: 2025-02-21
 description: "快捷指令上发送GitHub issues"
 category: '折腾'
 tags: ["github"]

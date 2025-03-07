@@ -1,6 +1,6 @@
 ---
 title: Astro Cactus主题配合无头CMS decap配置
-published: 2025-02-25T12:14:42.827Z
+published: 2025-02-26
 description: 网页中流畅的CMS体验
 category: '折腾'
 tags: ["DecapCMS"]

@@ -1,6 +1,6 @@
 ---
 title: 纯IPv6访问IPv4资源使用DNS64带NAT64
-published: 2025-02-21T12:37:13.578Z
+published: 2025-02-01
 description: 介绍带Nat64的DNS64服务器
 category: '折腾'
 tags:

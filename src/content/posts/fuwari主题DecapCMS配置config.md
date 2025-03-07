@@ -1,6 +1,6 @@
 ---
 title: fuwari主题DecapCMS配置config
-published: 2025-03-05
+published: 2025-03-03
 description: fuwari主题无头 DecapCMS配置config
 category: '折腾'
 tags: ["DecapCMS"]

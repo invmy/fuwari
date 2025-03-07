@@ -1,7 +1,6 @@
 ---
 title: 使用Rclone备份文件到cloudflare-R2存储桶
-published: 2024-05-01
-updated: 2024-11-29
+published: 2025-02-02
 description: 使用rclone快速备份到桶
 category: '折腾'
 tags:

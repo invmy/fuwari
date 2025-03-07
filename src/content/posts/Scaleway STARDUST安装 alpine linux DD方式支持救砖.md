@@ -1,6 +1,6 @@
 ---
 title: "Scaleway星辰安装 alpine linux"
-published: 2025-02-25T06:44:52.380Z
+published: 2025-02-18
 description: "Scaleway STARDUST安装 alpine linux"
 category: '折腾'
 tags: ["Scaleway","VPS"]
