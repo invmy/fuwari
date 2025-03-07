@@ -1,5 +1,5 @@
 ---
-title: "Alpine Linux 手动部署xray程序 支持更新core和dat"
+title: "Alpine手动部署xray程序 支持更新core和dat"
 published: 2025-02-23
 description: "Alpine Linux 手动部署xray程序 支持更新core和dat"
 category: '折腾'
