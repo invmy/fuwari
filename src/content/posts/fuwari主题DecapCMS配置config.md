@@ -2,8 +2,9 @@
 title: fuwari主题DecapCMS配置config
 published: 2025-03-03
 description: fuwari主题无头 DecapCMS配置config
-category: '折腾'
-tags: ["DecapCMS"]
+category: 折腾
+tags:
+  - DecapCMS
 ---
 
 ## 项目
@@ -59,8 +60,8 @@ collections:
     editor:
       preview: true
       frame: true
-    sortable_fields: ["published","updated","title"]
-    summary: "{{published}}  {{title}}"
+    sortable_fields: ["published","updated"]
+    summary: "{{published}} {{title}}"
     fields:
       - { label: "封面",name: "image",widget: "image",required: false, choose_url: true,hint: "可以上传也可以插入链接",}
       - { label: '标题', name: 'title', widget: 'string' ,required: true}
@@ -79,7 +80,7 @@ collections:
       preview: true
       frame: true
     summary: "{{filename}}"
-    sortable_fields: ["title"]
+    sortable_fields: [""]
     fields:
       - { label: '路径', name: "title", widget: "string",required: true, hint: "使用小写英文路径 , 仅创建时有效。创建完不支持修改，必须手动修改src/content/spec/下的文件名" }
       - { label: '正文', name: 'body',widget: 'markdown'}
