@@ -18,7 +18,7 @@ collections:
       preview: true
       frame: true
     sortable_fields: ["published","updated"]
-    summary: "{{published}}  _  {{title}}"
+    summary: "{{published}} {{title}}"
     fields:
       - { label: "封面",name: "image",widget: "image",required: false, choose_url: true,hint: "可以上传也可以插入链接",}
       - { label: '标题', name: 'title', widget: 'string' ,required: true}
